@@ -201,6 +201,7 @@ h1 {
 .lots__card-list-item {
   position: relative;
   z-index: 2;
+  flex-grow: 1
 }
 
 .card {
