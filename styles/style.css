@@ -3,13 +3,15 @@ address {
   max-width: 240px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-bottom: 5px;
+  justify-content: space-between;
 }
 
 .text_transform {
-  transform-origin: 0 0;
-  transform: scale(1.12, 1.1);
+  letter-spacing: 0.08rem;
+}
+
+.text_transform__address{
+  letter-spacing: 0.07rem;
 }
 
 .content-section {
@@ -57,16 +59,10 @@ address {
   text-decoration: none;
 } 
 
-.header__link_active {
-  text-transform: lowercase;
-  text-decoration: none;
-}
-
 .header__logo {
   width: 148px;
   height: 105px;
   align-self: start;
-  /*margin-left: 3px;*/
 }
 
 .header__logo a {
@@ -76,19 +72,21 @@ address {
 .header__address {
   justify-self: end;
   align-self: center;
-  margin-right: 27px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .address a {
   text-decoration: underline;
   text-underline-offset: 4px;
-  margin-right: -18px;
 }
 
 .address p {
   padding-bottom: 0;
   padding-top: 0;
-  line-height: 140%;
+  line-height: 148%;
 }
 
 .cover {
@@ -139,13 +137,26 @@ address {
 }
 
 .aligned-text_center {
-  text-align: center;
+  text-align: left;
+  padding-left: 455px;
   line-height: 100px;
 }
 
 .aligned-text_right {
   text-align: right;
   line-height: 100px;
+}
+
+.letter-spacing {
+  letter-spacing: 30px;
+}
+
+.letter-spacing-small {
+  letter-spacing: 23px;
+}
+
+.letter-spacing-medium {
+  letter-spacing: 54px;
 }
 
 .letter-spacing-space {
@@ -191,7 +202,7 @@ address {
 
 .lots {
   box-sizing: border-box;
-  margin: 180px 50px 181px 50px;  
+  margin: 153px 50px 160px 50px;  
 }
 
 .lots__heading {
@@ -270,7 +281,6 @@ address {
   margin-left: 40px;
   padding-top: 30px;
   box-sizing: border-box;
-
 }
 
 .lots__look-more-link a {
@@ -281,7 +291,7 @@ address {
   display: grid;
   grid-template-columns: 32% 66%; 
   column-gap: 25px;
-  margin: 0 50px 158px 50px;
+  margin: 0 50px 160px 50px;
 }
 
 .about__logo {
@@ -330,12 +340,15 @@ address {
   display: flex;
   justify-content: center;
   align-items: start;
-  margin-left: 15px;
 }
 
 .footer__menu-list {
   list-style: none;
   text-align: center;
+}
+
+.footer__menu-list-item {
+  margin-bottom: 2px;
 }
 
 .footer__menu-link {
@@ -357,5 +370,4 @@ address {
 .footer__social-icon {
   width: 48px;
   height: 48px;
-
 }
