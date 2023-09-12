@@ -1,17 +1,10 @@
 address {
   font-style: normal;
+  font-size: 18px;
   max-width: 240px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.text_transform {
-  letter-spacing: 0.08rem;
-}
-
-.text_transform__address{
-  letter-spacing: 0.07rem;
 }
 
 .content-section {
@@ -22,15 +15,14 @@ address {
 
 .header {
   box-sizing: border-box;
-  padding: 92px 50px 158px 50px;
+  padding: 92px 50px 158px 51px;
 }
 
 .header__menu {
   box-sizing: border-box;
   width: 100%;
-  height: 109px;
   display: grid;
-  grid-template-columns: 1fr 148px 1fr; 
+  grid-template-columns: 1fr min-content 1fr; 
   align-items: center;
 }
 
@@ -47,6 +39,8 @@ address {
 .header__links-list-item {
   list-style: circle;
   border-bottom: #000 solid 1px;
+  font-size: 18px;
+  margin-right: 2px;
 }
 
 .header__links-list-item_no-bullit {
@@ -86,7 +80,7 @@ address {
 .address p {
   padding-bottom: 0;
   padding-top: 0;
-  line-height: 148%;
+  line-height: 136%;
 }
 
 .cover {
@@ -137,8 +131,7 @@ address {
 }
 
 .aligned-text_center {
-  text-align: left;
-  padding-left: 455px;
+  text-align: center;
   line-height: 100px;
 }
 
@@ -149,14 +142,6 @@ address {
 
 .letter-spacing {
   letter-spacing: 30px;
-}
-
-.letter-spacing-small {
-  letter-spacing: 23px;
-}
-
-.letter-spacing-medium {
-  letter-spacing: 54px;
 }
 
 .letter-spacing-space {
@@ -171,7 +156,6 @@ address {
   position: relative;
   z-index: 2;
   width: 100%;
-  min-height: 52px;
   padding-right: 50px;
   padding-left: 50px;
   display: flex;
@@ -181,7 +165,7 @@ address {
 }
 
 .cover__description-text-space {
-  word-spacing: 17.5px;
+  word-spacing: 18px;
 }
 
 .cover_description-text {
@@ -202,7 +186,7 @@ address {
 
 .lots {
   box-sizing: border-box;
-  margin: 153px 50px 160px 50px;  
+  margin: 151px 50px 158px 50px;  
 }
 
 .lots__heading {
@@ -291,7 +275,7 @@ address {
   display: grid;
   grid-template-columns: 32% 66%; 
   column-gap: 25px;
-  margin: 0 50px 160px 50px;
+  margin: 0 50px 161px 51px;
 }
 
 .about__logo {
@@ -313,42 +297,44 @@ address {
 .about__column {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  gap: 25px;
+  align-items: center;
+  gap: 29px;
 }
 
 .about__title {
   font-size: 40px;
   text-transform: uppercase;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 101px 0 101px 1px;
 }
 
 .about__text {
   font-size: 20px;
+  line-height: 23px;
+  padding-left: 1px;
 }
 
 .footer {
-  margin: 0 50px 90px 50px;
+  margin: 0 49px 90px 50px;
   display: flex;
   justify-content: space-between;
   align-items: start;
   box-sizing: border-box;
 }
 
-.footer__menu {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-}
-
 .footer__menu-list {
   list-style: none;
   text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
 }
 
 .footer__menu-list-item {
-  margin-bottom: 2px;
+  margin-bottom: 0;
+  line-height: 21px;
 }
 
 .footer__menu-link {
@@ -370,4 +356,8 @@ address {
 .footer__social-icon {
   width: 48px;
   height: 48px;
+}
+
+.footer__address {
+  margin-top: 1px;
 }
