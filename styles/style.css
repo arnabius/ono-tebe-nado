@@ -15,7 +15,7 @@ address {
 
 .header {
   box-sizing: border-box;
-  padding: 92px 50px 158px 51px;
+  padding: 92px 50px 92px 50px;
 }
 
 .header__menu {
@@ -40,7 +40,7 @@ address {
   list-style: circle;
   border-bottom: #000 solid 1px;
   font-size: 18px;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -86,7 +86,7 @@ address {
 .cover {
   background-image: url(../images/cover.png);
   max-width: 1440px;
-  min-height: 764px;
+  min-height: 757px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,7 @@ address {
 
 .lots {
   box-sizing: border-box;
-  margin: 151px 50px 158px 50px;  
+  margin: 180px 50px 181px 50px;  
 }
 
 .lots__heading {
@@ -275,7 +275,7 @@ address {
   display: grid;
   grid-template-columns: 32% 66%; 
   column-gap: 25px;
-  margin: 0 50px 161px 51px;
+  margin: 0 50px 183px 51px;
 }
 
 .about__logo {
@@ -314,7 +314,7 @@ address {
 }
 
 .footer {
-  margin: 0 49px 90px 50px;
+  margin: 0 50px 90px 50px;
   display: flex;
   justify-content: space-between;
   align-items: start;
